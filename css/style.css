@@ -1,0 +1,36 @@
+.showcase-bg-style{
+    background-image: url(/assets/imgs/STS\ PITCH.png);
+    background-position: center;
+    padding: 50px;
+}
+
+.showcase-text-style{
+    font-family:Lato;
+    font-weight: bold;
+    font-size: 175%;
+}
+
+
+@media(min-width:768px){
+
+    .showcase-bg-style{
+        background-image: url(/assets/imgs/STS\ PITCH.png);
+        background-position: center;
+        padding: 100px;
+    }
+    .showcase-text-style{
+        font-family:Lato;
+        font-weight: bold;
+        font-size: 250%;
+
+    }
+}
+
+@media(min-width:992px){
+    .showcase-text-style{
+        font-family:Lato, Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 425%;
+    }
+}
+
