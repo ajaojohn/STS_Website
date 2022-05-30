@@ -1,8 +1,15 @@
 .showcase-bg-style{
-    background-image: url(/assets/imgs/STS\ PITCH.png);
+    background-image: url('../assets/imgs/STS_PITCH.png');
+    background-size: auto;
     background-position: center;
     padding: 50px;
 }
+@media (max-width:640px) {
+    .showcase-bg-style{
+      background-attachment:initial;
+    }
+  }
+  
 
 .showcase-text-style{
     font-family:Lato;
@@ -14,7 +21,7 @@
 @media(min-width:768px){
 
     .showcase-bg-style{
-        background-image: url(/assets/imgs/STS\ PITCH.png);
+        background-image: url('../assets/imgs/STS_PITCH.png');
         background-position: center;
         padding: 100px;
     }
