@@ -1,3 +1,8 @@
+@import url(fonts.css);
+
+body{
+    padding-top: 70px;
+}
 .showcase-bg-style{
     background-image: url('../assets/imgs/STS_PITCH.png');
     background-size: auto;
@@ -39,5 +44,9 @@
         font-weight: bold;
         font-size: 425%;
     }
+}
+
+.about-us-title{
+    font-family: 'Lato Bold', Arial, Helvetica, sans-serif;
 }
 
