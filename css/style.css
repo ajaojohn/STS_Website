@@ -50,3 +50,6 @@ body{
     font-family: 'Lato Bold', Arial, Helvetica, sans-serif;
 }
 
+.accordion-button{
+    font-weight: bold;
+}
