@@ -26,7 +26,7 @@ body{
 @media(min-width:768px){
 
     .showcase-bg-style{
-        background-image: url('../assets/imgs/STS_PITCH.png');
+        background-image: url('../assets/imgs/STS_PITCH.jpg');
         background-position: center;
         padding: 100px;
     }
